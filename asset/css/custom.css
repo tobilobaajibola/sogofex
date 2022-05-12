@@ -1,0 +1,27 @@
+.wp-block-image{
+  display: none;
+}
+
+.cm_product_list_category{
+border-color: #ebf2fe;
+background-color: #ebf2fe;
+position: relative;
+-ms-box-shadow: none!important;
+-o-box-shadow: none!important;
+box-shadow: none!important;
+    padding: 0px;
+    font-size: 1.0625rem;
+    line-height: 1.5;
+}
+
+.pricetable-display{
+	background-color: #0c0b0b73;
+    color: #ffffff;
+    border-radius: 31px;
+    padding: 3px;
+}
+.btn-soft-static.btn-primary:not([aria-expanded=true]):not(.active), .btn-soft.btn-primary:not(:hover):not([aria-expanded=true]):not(.active) {
+    color: #0d5bdd;
+    border-color: #ebf2fe;
+    background-color: #ebf2fe;
+}
