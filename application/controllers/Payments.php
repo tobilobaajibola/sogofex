@@ -90,7 +90,7 @@ class Payments extends CI_Controller
 		$data= array('');
 	$transaction_id = $_POST['transaction_reference'];
 	// echo $transaction_id;
-	$merchant_transaction_key =  'qxnxM8RKHQLR2krASVmp';
+	$merchant_transaction_key =  '';
 	$url = 'https://www.zilliongift.com/verify/'.$transaction_id.'/'.$merchant_transaction_key ;
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
