@@ -17,8 +17,7 @@ class Payments extends CI_Controller
        			// $transtref='tour3v4lG1';
 				$result = array();
 				//The parameter after verify/ is the transaction reference to be verified
-				// sk_live_bf5c62d154826928927856cf198f78704161cf4d
-				// sk_test_7f41634abd2b73d79929d43ca76c2a86cc93f9dd
+				
 				$url = 'https://api.paystack.co/transaction/verify/'.$transtref;
 				$hh=header('Content-type: application/json');
 				$ch = curl_init();
