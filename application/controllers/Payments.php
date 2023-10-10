@@ -25,7 +25,7 @@ class Payments extends CI_Controller
 				curl_setopt($ch, CURLOPT_URL, $url);
 				curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 				curl_setopt($ch, CURLOPT_HTTPHEADER, 
-							['Authorization: Bearer sk_live_bf5c62d154826928927856cf198f78704161cf4d']
+							['Authorization: Bearer '']
 							);
 		        curl_setopt($ch, CURLOPT_HEADER, $hh);
 
